@@ -1,0 +1,6 @@
+s = input("Введите строку: \n")
+symbols = len(s)
+s = s.split()
+words = len(s)
+print("Всего символов: ", symbols)
+print("Всего слов: ", words)
